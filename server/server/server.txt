@@ -11,7 +11,7 @@ NullGfxDevice:
     Renderer: Null Device
     Vendor:   Unity Technologies
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.053 seconds
+- Loaded All Assemblies, in  0.055 seconds
 - Finished resetting the current domain, in  0.001 seconds
 ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
@@ -26,7 +26,7 @@ WARNING: Shader Unsupported: 'Standard' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 There is no texture data available to upload.
-UnloadTime: 0.569440 ms
+UnloadTime: 0.607969 ms
 network spawn
 worked again
 Debug 3 (server rpc)
@@ -44,12 +44,49 @@ Debug 3 (server rpc)
 Debug 3 (server rpc)
 Debug 3 (server rpc)
 Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+network spawn
+worked again
+Debug 3 (server rpc)
+Debug 4 (vector)
+init players
+Player count: 1
+set p1
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
+Debug 3 (server rpc)
 Setting up 8 worker threads for Enlighten.
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 14535323 frames, [1.0 KB-2.0 KB]: 1 frames, [4.0 KB-8.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames
+      Peak usage frame count: [0-1.0 KB]: 1217564 frames, [1.0 KB-2.0 KB]: 1 frames, [4.0 KB-8.0 KB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames
       Initial Block Size 4.0 MB
       Current Block Size 4.0 MB
       Peak Allocated Bytes 2.1 MB
@@ -241,16 +278,16 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 1.0 MB
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 14535326 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 1217568 frames
       Requested Block Size 16.0 MB
       Peak Block count 2
-      Peak Allocated memory 17.6 MB
+      Peak Allocated memory 17.7 MB
       Peak Large allocation bytes 0 B
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 3 frames, [4.0 MB-8.0 MB]: 14535322 frames
+      Peak usage frame count: [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 1217565 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 5.5 MB
+      Peak Allocated memory 5.9 MB
       Peak Large allocation bytes 0 B
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -279,13 +316,13 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 1.0 MB
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [32.0 KB-64.0 KB]: 14535325 frames, [64.0 KB-128.0 KB]: 1 frames
+      Peak usage frame count: [32.0 KB-64.0 KB]: 1217567 frames, [64.0 KB-128.0 KB]: 1 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
       Peak Allocated memory 108.0 KB
       Peak Large allocation bytes 0 B
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [32.0 KB-64.0 KB]: 14535326 frames
+      Peak usage frame count: [32.0 KB-64.0 KB]: 1217568 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
       Peak Allocated memory 32.2 KB
@@ -297,13 +334,13 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 1.0 MB
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [0.5 MB-1.0 MB]: 14535326 frames
+      Peak usage frame count: [0.5 MB-1.0 MB]: 1217568 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 0.7 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [256.0 KB-0.5 MB]: 14535325 frames, [1.0 MB-2.0 MB]: 1 frames
+      Peak usage frame count: [256.0 KB-0.5 MB]: 1217567 frames, [1.0 MB-2.0 MB]: 1 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 1.3 MB
@@ -315,13 +352,13 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 1.0 MB
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 14535326 frames
+      Peak usage frame count: [0-1.0 KB]: 1217568 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 96 B
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 14535326 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1217568 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
       Peak Allocated memory 7.7 KB
