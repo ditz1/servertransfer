@@ -1,0 +1,33 @@
+Mono path[0] = '/home/dan/Documents/multiplayertesting/server/dedicatedserver_Data/Managed'
+Mono config path = '/home/dan/Documents/multiplayertesting/server/dedicatedserver_Data/MonoBleedingEdge/etc'
+Preloaded 'lib_burst_generated.so'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /home/dan/Documents/multiplayertesting/server/dedicatedserver_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0; jobified=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.055 seconds
+- Finished resetting the current domain, in  0.001 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader GUI/Text Shader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader TextMeshPro/Mobile/Distance Field shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+There is no texture data available to upload.
+UnloadTime: 0.595200 ms
+Started Listening on port 8080
+endpoint: 127.0.0.1:8080
+connections: Unity.Collections.NativeList`1[[Unity.Networking.Transport.NetworkConnection, Unity.Networking.Transport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
+this shit worked
